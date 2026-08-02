@@ -3,41 +3,32 @@ name: 🐍 Contribution Snake
 on:
   schedule:
     - cron: '0 0 * * *'   # Diariamente a medianoche UTC
-  workflow_dispatch:        # También puede dispararse manualmente
+  workflow_dispatch:        # Puede dispararse manualmente desde Actions
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
-
-      - name: Create output directory
-        run: mkdir -p dist
-
+      # svg-only: variante ligera de Platane/snk, lee el grafo público de contribuciones
+      # No requiere GITHUB_TOKEN propio — usa el del runner automáticamente
       - name: Generate snake animation
-        # Pinado al SHA exacto de master (v1.1.4-fix · 2023-01-09)
-        # Para actualizar: https://github.com/Platane/snk/commits/master
-        uses: Platane/snk@905444068febdb67551f3a9e1792a469e7432f67
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      # crazy-max/ghaction-github-pages: maneja correctamente el push a un branch separado
+      # Equivale a hacer un git push --force al branch 'output' con solo el contenido de dist/
+      - name: Deploy SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push snake to output branch
-        run: |
-          cd dist
-          git init
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "chore: update snake animation [skip ci]"
-          git push --force \
-            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git \
-            HEAD:output
