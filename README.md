@@ -30,4 +30,4 @@ App Android nativa construida con Jetpack Compose y arquitectura MVVM, integrand
 - 💻 [Repositorio](https://github.com/MOVILES-Sec1-G17-ISIS3510/uniandesSports-Kotlin)
 
 ## 📫 Contáctame
-- LinkedIn: [julian-davidgonzalez-bermudez](https://www.linkedin.com/in/julian-david-gonzalez-bermudez)
+- LinkedIn: [julian-david-gonzalez-bermudez](https://www.linkedin.com/in/julian-david-gonzalez-bermudez)
