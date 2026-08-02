@@ -2,8 +2,8 @@ name: Generate Trophy
 
 on:
   schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch:
+    - cron: '0 6 * * *'   # Diariamente a las 6 AM UTC
+  workflow_dispatch:        # También puede dispararse manualmente desde la UI de GitHub
 
 jobs:
   generate:
@@ -12,10 +12,13 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
 
       - name: Generate trophy
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        # Pinado al SHA exacto del commit más reciente en feature/generate-svg (2026-04-16)
+        # SHA: eb0893b31de06841663555d10aa43eb7cf27952f
+        # Para actualizar: revisar https://github.com/Erik-Donath/github-profile-trophy/commits/feature/generate-svg
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
         with:
           username: jdgonzalezz2
           file: trophy.svg
@@ -26,5 +29,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add trophy.svg
-          git diff --cached --quiet || git commit -m "chore: update trophy"
+          git diff --cached --quiet || git commit -m "chore: update trophy [skip ci]"
           git push
