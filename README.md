@@ -2,7 +2,8 @@
      HERO — Animated gradient header
 ══════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Julián%20David%20González&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=Engineering%20AI-Powered%20Products%20%7C%20Fullstack%20%26%20Mobile%20Native&descAlignY=63&descAlign=50&descSize=17&descColor=a0aec0" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Julián%20David%20González&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%"/>
+  <h3>⚡ Engineering AI-Powered Products &nbsp;·&nbsp; Fullstack &amp; Mobile Native</h3>
 </div>
 
 <!-- Typing SVG -->
