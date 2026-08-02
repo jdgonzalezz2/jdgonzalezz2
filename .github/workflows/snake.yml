@@ -3,7 +3,7 @@ name: 🐍 Contribution Snake
 on:
   schedule:
     - cron: '0 0 * * *'   # Diariamente a medianoche UTC
-  workflow_dispatch:        # Puede dispararse manualmente desde la UI de GitHub
+  workflow_dispatch:        # También puede dispararse manualmente
 
 jobs:
   generate:
@@ -12,9 +12,14 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - name: Create output directory
+        run: mkdir -p dist
+
       - name: Generate snake animation
-        # Pinado al SHA del commit más reciente de master (v1.1.4-fix · 2023-01-09)
-        # SHA: 905444068febdb67551f3a9e1792a469e7432f67
+        # Pinado al SHA exacto de master (v1.1.4-fix · 2023-01-09)
         # Para actualizar: https://github.com/Platane/snk/commits/master
         uses: Platane/snk@905444068febdb67551f3a9e1792a469e7432f67
         with:
@@ -22,6 +27,8 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push snake to output branch
         run: |
