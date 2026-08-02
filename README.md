@@ -1,4 +1,8 @@
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Hola%2C+soy+Juli%C3%A1n+David+Gonz%C3%A1lez+%F0%9F%91%8B;Fullstack+Developer+%7C+React+%C2%B7+Node.js;Ingeniero+de+Sistemas+%40+Uniandes;Construyendo+productos+con+IA+%2B+UX)
+# Hola, soy Julián David González 👋
+
+**Fullstack Developer** · React · Node.js
+**Ingeniero de Sistemas y Computación** @ Uniandes
+Construyendo productos con IA + UX
 
 ![Ing. Sistemas y Computación](https://img.shields.io/badge/🎓-Ingeniería_de_Sistemas_y_Computación-blueviolet?style=for-the-badge)
 ![Uniandes](https://img.shields.io/badge/Universidad-de_los_Andes-003865?style=for-the-badge)
@@ -46,11 +50,11 @@ App Android nativa construida con **Jetpack Compose** y arquitectura **MVVM**, i
 
 ## 📊 GitHub Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=jdgonzalezz2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Stats](https://github-readme-stats-julipipu.vercel.app/api?username=jdgonzalezz2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=jdgonzalezz2&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jdgonzalezz2&layout=compact&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats-julipipu.vercel.app/api/top-langs/?username=jdgonzalezz2&layout=compact&theme=tokyonight&hide_border=true)
 
-![Trofeos](https://github-profile-trophy.vercel.app/?username=jdgonzalezz2&theme=tokyonight&no-frame=true&row=1&column=7)
+![Trofeos](trophy.svg)
 
 ![Visitas](https://komarev.com/ghpvc/?username=jdgonzalezz2&style=flat-square&color=2dd4bf&label=visitas+al+perfil)
 
