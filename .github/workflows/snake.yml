@@ -1,0 +1,36 @@
+name: 🐍 Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # Diariamente a medianoche UTC
+  workflow_dispatch:        # Puede dispararse manualmente desde la UI de GitHub
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate snake animation
+        # Pinado al SHA del commit más reciente de master (v1.1.4-fix · 2023-01-09)
+        # SHA: 905444068febdb67551f3a9e1792a469e7432f67
+        # Para actualizar: https://github.com/Platane/snk/commits/master
+        uses: Platane/snk@905444068febdb67551f3a9e1792a469e7432f67
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push snake to output branch
+        run: |
+          cd dist
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: update snake animation [skip ci]"
+          git push --force \
+            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git \
+            HEAD:output
