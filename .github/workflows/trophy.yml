@@ -18,8 +18,8 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: jdgonzalezz2
-          output_path: trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          file: trophy.svg
+          token: ${{ secrets.TROPHY_TOKEN }}
 
       - name: Commit and push if changed
         run: |
