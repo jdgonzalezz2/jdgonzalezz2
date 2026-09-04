@@ -1,15 +1,15 @@
 <!-- ══════════════════════════════════════════════════════════
-     HERO — Animated gradient header
+     HERO
 ══════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Julián%20David%20González&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%"/>
-  <h3>⚡ Engineering AI-Powered Products &nbsp;·&nbsp; Fullstack &amp; Mobile Native</h3>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Juli%C3%A1n%20David%20Gonz%C3%A1lez&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%"/>
+  <h3>Fullstack &amp; Mobile Developer · Ingeniería de Sistemas @ Uniandes</h3>
 </div>
 
 <!-- Typing SVG -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=61DAFB&center=true&vCenter=true&width=720&lines=React+%7C+Node.js+%7C+Kotlin+%7C+Firebase+%7C+AI;Ing.+Sistemas+%40+Uniandes+%C2%B7+8vo+y+%C3%BAltimo+Semestre+%F0%9F%8E%93;Stanford+Algorithms+%C2%B7+Meta+Android+%C2%B7+IELTS+C1;Building+at+the+intersection+of+AI+%2B+UX+%E2%9C%A8;Open+to+internships+%26+startup+collabs+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=61DAFB&center=true&vCenter=true&width=720&lines=Fullstack+%26+Mobile+Developer;Ing.+de+Sistemas+%40+Uniandes+%C2%B7+%C3%BAltimo+semestre;React+%C2%B7+Node.js+%C2%B7+Kotlin+%C2%B7+Python;IA+aplicada+a+problemas+reales;Abierto+a+pr%C3%A1cticas+y+colaboraciones" alt="Typing SVG" />
   </a>
 </p>
 
@@ -21,72 +21,53 @@
   <a href="https://github.com/jdgonzalezz2">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <img src="https://img.shields.io/badge/📍_Bogotá-Colombia-00C853?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🌎_English-C1_IELTS-003865?style=for-the-badge"/>
-  <img src="https://komarev.com/ghpvc/?username=jdgonzalezz2&style=for-the-badge&color=61dafb&label=Profile+Views"/>
+  <img src="https://img.shields.io/badge/Bogot%C3%A1-Colombia-00C853?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/English-C1_IELTS-003865?style=for-the-badge"/>
 </p>
 
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════
-     ABOUT ME — Split table layout
+     ABOUT
 ══════════════════════════════════════════════════════════ -->
+
+## About
 
 <table width="100%">
 <tr>
 <td width="55%" valign="top">
 
-## 🧭 About Me
+Estudiante de último semestre de Ingeniería de Sistemas en la **Universidad de los Andes**. Construyo productos web y móviles, y últimamente casi todo lo que hago gira alrededor de la IA aplicada a problemas concretos: desde **Happify**, un asistente emocional, hasta **FocusFlow**, un planeador académico con IA que ya tiene usuarios reales.
 
-Estudiante de Ing. Sistemas @ **Universidad de los Andes** (8vo y último semestre), construyendo en la intersección de **IA, Fullstack Web y Mobile Nativo**. Desarrollé **Happify**, un asistente emocional con IA, en Expo Andes 2023, y co-lidero la ingeniería de **FocusFlow** — un planeador académico con IA con usuarios reales en producción.
-
-Certificado por **Stanford** (Algorithms), **Meta** (Android UI) y **IELTS C1**, aporto rigor académico y entrega real a cada equipo en el que participo.
+Me gusta el trabajo que se nota: código que funciona, interfaces que la gente entiende y decisiones técnicas que puedo defender. Ahora estoy metido en **Terraform, LangGraph y LangFlow** para llevar mis proyectos de IA a algo más sólido y desplegable.
 
 </td>
 <td width="45%" valign="top">
 
 ```yaml
-# juliandev.yaml
 name:    "Julián David González Bermúdez"
 role:    "Fullstack & Mobile Developer"
-focus:   "AI-powered products + UX"
-school:  "Uniandes · 8th (final) semester"
+focus:   "IA aplicada + buen UX"
+school:  "Uniandes · último semestre"
 certs:
-  - "Stanford — Algorithms (4 courses)"
-  - "Meta — Android UI Development"
+  - "Stanford — Algorithms"
+  - "Meta — Android UI"
   - "IELTS General Training — C1"
-  - "Uniandes — Cybersecurity Spec."
-open_to: ["internships", "collabs", "OSS"]
-goal_2026: "Ship AI product to real market"
+  - "Uniandes — Ciberseguridad"
+open_to: ["prácticas", "colaboraciones", "OSS"]
 ```
 
 </td>
 </tr>
 </table>
 
-<!-- Current focus collapsible -->
-<details open>
-<summary><b>📡 Radar actual</b></summary>
-<br/>
-
-```text
-🔭  Building     →  FocusFlow   — AI academic planner (React · Node.js · Production)
-🧠  Learning     →  Terraform · LangGraph · LangFlow · Agentic AI · System Design
-🤝  Open to      →  Internships · Startup collabs · Open-source contributions
-🏆  Goal 2026    →  Ship an AI product with real paying users
-📍  Based in     →  Bogotá, Colombia   🇨🇴
-🌎  Languages    →  Spanish (native)  ·  English C1 (IELTS certified)
-```
-
-</details>
-
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════
-     TECH ARSENAL
+     TECH STACK
 ══════════════════════════════════════════════════════════ -->
 
-## 🛠️ Tech Arsenal
+## Tech Stack
 
 <div align="center">
 
@@ -126,7 +107,7 @@ goal_2026: "Ship AI product to real market"
 <tr>
 <td align="center" colspan="2">
 
-**🌱 Currently learning**
+**Currently learning**
 
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
@@ -144,13 +125,13 @@ goal_2026: "Ship AI product to real market"
      FEATURED WORK
 ══════════════════════════════════════════════════════════ -->
 
-## 🚀 Featured Work
+## Featured Work
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Happify — Asistente Emocional con IA
+### Happify — Asistente Emocional con IA
 **Expo Andes · Uniandes 2023**
 
 Asistente conversacional de salud mental impulsado por IA. Combina **NLP** con flujos UX empáticos, diseñado para reducir la barrera de acceso a primeros auxilios psicológicos. Presentado en Expo Andes 2023 ante más de 50 asistentes y un panel de jurados.
@@ -158,31 +139,29 @@ Asistente conversacional de salud mental impulsado por IA. Combina **NLP** con f
 ![NLP](https://img.shields.io/badge/NLP-FF6B6B?style=flat-square)
 ![UX Research](https://img.shields.io/badge/UX_Research-7C3AED?style=flat-square)
 ![AI](https://img.shields.io/badge/Inteligencia_Artificial-FF6F00?style=flat-square)
-![Uniandes](https://img.shields.io/badge/🏆_Feria_de_Innovación-003865?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 🎯 FocusFlow
+### FocusFlow
 **AI-Powered Academic Planner · In Production**
 
-Planeador de estudio con IA, gestión de documentos académicos y sincronización con Google Calendar. Desplegado en Vercel con usuarios activos.
+Planeador de estudio con IA, gestión de documentos académicos y sincronización con Google Calendar. Desplegado en Vercel; presentado en La Muestra 2025 con 100 usuarios activos.
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-FF6F00?style=flat-square)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Live](https://img.shields.io/badge/🟢_Live-success?style=flat-square)
 
-🔗 [**Demo en vivo**](https://focusflow-landing-page.vercel.app) · [Frontend](https://github.com/PMC-grupo7/FocusflowFrontend) · [Backend](https://github.com/PMC-grupo7/FocusflowBackend)
+[Demo en vivo](https://focusflow-landing-page.vercel.app) · [Frontend](https://github.com/PMC-grupo7/FocusflowFrontend) · [Backend](https://github.com/PMC-grupo7/FocusflowBackend)
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-### 🏅 UniAndes Sports
-**Native Android · Full Firebase Stack · Production Architecture**
+### UniAndes Sports
+**Native Android · Full Firebase Stack**
 
 App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estricta. Stack completo de Firebase: Auth, Firestore, Cloud Storage, Analytics y Crashlytics. Notificaciones push en tiempo real para actualizaciones de contenido deportivo.
 
@@ -190,9 +169,8 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
 ![MVVM](https://img.shields.io/badge/MVVM-7C3AED?style=flat-square)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 
-💻 [Repositorio](https://github.com/MOVILES-Sec1-G17-ISIS3510/uniandesSports-Kotlin)
+[Repositorio](https://github.com/MOVILES-Sec1-G17-ISIS3510/uniandesSports-Kotlin)
 
 </td>
 </tr>
@@ -211,10 +189,10 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════
-     GITHUB STATS — Triple card layout
+     GITHUB STATS
 ══════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Impact
+## GitHub Stats
 
 <div align="center">
   <img height="185em" src="https://github-readme-stats-julipipu.vercel.app/api?username=jdgonzalezz2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github"/>
@@ -222,31 +200,7 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jdgonzalezz2&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB" width="60%" alt="Streak stats"/>
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════
-     ACTIVITY GRAPH — Full width, area fill
-══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jdgonzalezz2&theme=tokyo-night&hide_border=true&area=true&area_color=61dafb&color=61dafb&line=61dafb&point=ffffff&custom_title=Julián's%20Contribution%20Activity" width="97%" alt="Activity Graph"/>
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════
-     SNAKE — Auto-generated contribution animation
-══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/jdgonzalezz2/jdgonzalezz2/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jdgonzalezz2/jdgonzalezz2/output/github-snake.svg"/>
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/jdgonzalezz2/jdgonzalezz2/output/github-snake-dark.svg"/>
-  </picture>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jdgonzalezz2&theme=tokyo-night&hide_border=true&area=true&area_color=61dafb&color=61dafb&line=61dafb&point=ffffff&custom_title=Contribution%20Activity" width="97%" alt="Activity Graph"/>
 </div>
 
 <br/>
@@ -255,7 +209,7 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
      TROPHIES
 ══════════════════════════════════════════════════════════ -->
 
-## 🏆 Trophies
+## Trophies
 
 <div align="center">
   <img src="trophy.svg" alt="GitHub Trophies"/>
@@ -264,30 +218,20 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════
-     CERTIFICATIONS — Executive table
+     CERTIFICATIONS
 ══════════════════════════════════════════════════════════ -->
 
-## 📜 Certifications
+## Certifications
 
 <div align="center">
 
-| &nbsp; | Certification | Institution | Year |
-|:---:|:---|:---|:---:|
-| 🤖 | Meta Android UI Development | Meta | 2026 |
-| 🔒 | Cybersecurity Specialization | Universidad de los Andes | 2025 |
-| 🧮 | Algorithms Specialization — 4 courses | Stanford University | 2025 |
-| 🌎 | IELTS General Training — C1 | IELTS Official | 2022 |
+| Certification | Institution | Year |
+|:---|:---|:---:|
+| Meta Android UI Development | Meta | 2026 |
+| Cybersecurity Specialization | Universidad de los Andes | 2025 |
+| Algorithms Specialization — 4 courses | Stanford University | 2025 |
+| IELTS General Training — C1 | IELTS Official | 2022 |
 
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════
-     QUOTE OF THE DAY
-══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="80%"/>
 </div>
 
 <br/>
@@ -298,7 +242,7 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
 
 <p align="center">
   <a href="https://www.linkedin.com/in/julian-david-gonzalez-bermudez">
-    <img src="https://img.shields.io/badge/Let's_connect_on_LinkedIn_→-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Let's_connect_on_LinkedIn_%E2%86%92-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
 
