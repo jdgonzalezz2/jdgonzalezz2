@@ -9,7 +9,7 @@
 <!-- Typing SVG -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=61DAFB&center=true&vCenter=true&width=720&lines=React+%7C+Node.js+%7C+Kotlin+%7C+Firebase+%7C+AI;Ing.+Sistemas+%40+Uniandes+%C2%B7+7mo+Semestre+%F0%9F%8E%93;Stanford+Algorithms+%C2%B7+Meta+Android+%C2%B7+IELTS+C1;Building+at+the+intersection+of+AI+%2B+UX+%E2%9C%A8;Open+to+internships+%26+startup+collabs+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=61DAFB&center=true&vCenter=true&width=720&lines=React+%7C+Node.js+%7C+Kotlin+%7C+Firebase+%7C+AI;Ing.+Sistemas+%40+Uniandes+%C2%B7+8vo+y+%C3%BAltimo+Semestre+%F0%9F%8E%93;Stanford+Algorithms+%C2%B7+Meta+Android+%C2%B7+IELTS+C1;Building+at+the+intersection+of+AI+%2B+UX+%E2%9C%A8;Open+to+internships+%26+startup+collabs+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -38,7 +38,7 @@
 
 ## 🧭 About Me
 
-Estudiante de Ing. Sistemas @ **Universidad de los Andes** (7mo semestre), construyendo en la intersección de **IA, Fullstack Web y Mobile Nativo**. Desarrollé un **psicólogo virtual con IA** en la Feria de Innovación Uniandes 2023, y co-lidero la ingeniería de **FocusFlow** — un planeador académico con IA con usuarios reales en producción.
+Estudiante de Ing. Sistemas @ **Universidad de los Andes** (8vo y último semestre), construyendo en la intersección de **IA, Fullstack Web y Mobile Nativo**. Desarrollé **Happify**, un asistente emocional con IA, en Expo Andes 2023, y co-lidero la ingeniería de **FocusFlow** — un planeador académico con IA con usuarios reales en producción.
 
 Certificado por **Stanford** (Algorithms), **Meta** (Android UI) y **IELTS C1**, aporto rigor académico y entrega real a cada equipo en el que participo.
 
@@ -50,7 +50,7 @@ Certificado por **Stanford** (Algorithms), **Meta** (Android UI) y **IELTS C1**,
 name:    "Julián David González Bermúdez"
 role:    "Fullstack & Mobile Developer"
 focus:   "AI-powered products + UX"
-school:  "Uniandes · 7th semester"
+school:  "Uniandes · 8th (final) semester"
 certs:
   - "Stanford — Algorithms (4 courses)"
   - "Meta — Android UI Development"
@@ -71,7 +71,7 @@ goal_2026: "Ship AI product to real market"
 
 ```text
 🔭  Building     →  FocusFlow   — AI academic planner (React · Node.js · Production)
-🧠  Exploring    →  LLM integration · RAG · Cloud Architecture · System Design
+🧠  Learning     →  Terraform · LangGraph · LangFlow · Agentic AI · System Design
 🤝  Open to      →  Internships · Startup collabs · Open-source contributions
 🏆  Goal 2026    →  Ship an AI product with real paying users
 📍  Based in     →  Bogotá, Colombia   🇨🇴
@@ -96,14 +96,14 @@ goal_2026: "Ship AI product to real market"
 
 **Frontend & Design**
 
-![Frontend](https://skillicons.dev/icons?i=react,js,ts,html,css,figma&theme=dark)
+![Frontend](https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,figma&theme=dark)
 
 </td>
 <td align="center" width="50%">
 
-**Backend & Cloud**
+**Backend & Data**
 
-![Backend](https://skillicons.dev/icons?i=nodejs,firebase,git,github&theme=dark)
+![Backend](https://skillicons.dev/icons?i=nodejs,java,spring,python,fastapi,postgres,firebase&theme=dark)
 
 </td>
 </tr>
@@ -117,9 +117,20 @@ goal_2026: "Ship AI product to real market"
 </td>
 <td align="center" width="50%">
 
-**Currently learning**
+**Cloud & DevOps**
 
-![Learning](https://skillicons.dev/icons?i=python,docker,gcp&theme=dark)
+![Cloud](https://skillicons.dev/icons?i=docker,gcp,vercel,git,github&theme=dark)
+
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+
+**🌱 Currently learning**
+
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangFlow](https://img.shields.io/badge/LangFlow-2A2A2A?style=for-the-badge&logo=chainlink&logoColor=white)
 
 </td>
 </tr>
@@ -139,10 +150,10 @@ goal_2026: "Ship AI product to real market"
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Psicólogo Virtual con IA
-**Feria de Innovación · Uniandes 2023**
+### 🤖 Happify — Asistente Emocional con IA
+**Expo Andes · Uniandes 2023**
 
-Asistente conversacional de salud mental impulsado por IA. Combina **NLP** con flujos UX empáticos, diseñado para reducir la barrera de acceso a primeros auxilios psicológicos. Presentado en la Feria de Innovación de Uniandes 2023 con recepción positiva del jurado y usuarios.
+Asistente conversacional de salud mental impulsado por IA. Combina **NLP** con flujos UX empáticos, diseñado para reducir la barrera de acceso a primeros auxilios psicológicos. Presentado en Expo Andes 2023 ante más de 50 asistentes y un panel de jurados.
 
 ![NLP](https://img.shields.io/badge/NLP-FF6B6B?style=flat-square)
 ![UX Research](https://img.shields.io/badge/UX_Research-7C3AED?style=flat-square)
@@ -262,10 +273,10 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
 
 | &nbsp; | Certification | Institution | Year |
 |:---:|:---|:---|:---:|
-| 🔒 | Cybersecurity Specialization | Universidad de los Andes | 2024 |
-| 🤖 | Meta Android UI Development | Meta | 2024 |
-| 🧮 | Algorithms Specialization — 4 courses | Stanford University | 2023 |
-| 🌎 | IELTS General Training — Band 7+ (C1) | British Council / IELTS | 2023 |
+| 🤖 | Meta Android UI Development | Meta | 2026 |
+| 🔒 | Cybersecurity Specialization | Universidad de los Andes | 2025 |
+| 🧮 | Algorithms Specialization — 4 courses | Stanford University | 2025 |
+| 🌎 | IELTS General Training — C1 | IELTS Official | 2022 |
 
 </div>
 
