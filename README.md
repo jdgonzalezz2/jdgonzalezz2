@@ -21,6 +21,9 @@
   <a href="https://github.com/jdgonzalezz2">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+  <a href="https://www.upwork.com/freelancers/~0108d007fd928d3f8e">
+    <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"/>
+  </a>
   <img src="https://img.shields.io/badge/Bogot%C3%A1-Colombia-00C853?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/English-C1_IELTS-003865?style=for-the-badge"/>
 </p>
@@ -243,6 +246,9 @@ App Android nativa con UI en **Jetpack Compose** y arquitectura **MVVM** estrict
 <p align="center">
   <a href="https://www.linkedin.com/in/julian-david-gonzalez-bermudez">
     <img src="https://img.shields.io/badge/Let's_connect_on_LinkedIn_%E2%86%92-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.upwork.com/freelancers/~0108d007fd928d3f8e">
+    <img src="https://img.shields.io/badge/Hire_me_on_Upwork_%E2%86%92-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"/>
   </a>
 </p>
 
